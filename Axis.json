@@ -1,5 +1,5 @@
 {
-  "intents": [
+  "Axis": [
 {
       "tag": "greeting",
       "patterns": [
