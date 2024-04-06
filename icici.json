@@ -1,0 +1,99 @@
+{
+  "intents": [
+{
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "help",
+        "Is anyone there?",
+        "Hello",
+        "need help"
+      ],
+      "responses": [
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "apply",
+      "patterns": [
+        "how to apply for credit card",
+        "apply for card",
+        "apply for fd",
+        "apply for debit card",
+        "apply for saving accounts",
+        "apply for mutual funds",
+	    "apply for fixed deposit",
+	    "apply for scheme",
+	    "apply for "
+      ],
+      "responses": [
+        "You can visit the official ICICI Bank website at www.icicibank.com to apply for various services such as credit cards, debit cards, loans, and more. If you need any further assistance or have specific questions, feel free to ask from our customer care number : 1800-1080"
+      ]
+    },
+    {
+      "tag": "complaint",
+      "patterns": ["how to register a complaint",
+ 	"register a complaint",
+	"complaint"],
+      "responses": [
+        "To register a complaint with ICICI Bank, you can follow these steps:\n\n1.Visit the official ICICI Bank website at www.icicibank.com.\n\n2.Look for the \"Customer Service\" or \"Contact Us\" section on the website.\n\n3.In the Customer Service section, you should find options such as \"Complaints\" or \"Raise a Complaint.\"\n\n4.Click on the relevant link to access the complaint registration form.\n\n5.Fill out the required details in the complaint form, including your personal information, account details (if applicable), and details of the complaint.\n\n6.Once you have filled out the form, submit it through the website.\n\nAlternatively, you can also register a complaint by calling ICICI Bank's customer care helpline: 1800-1080. "
+      ]
+    },
+    {
+      "tag": "password",
+      "patterns": ["How do I change my password","change password"],
+      "responses": ["To change your password for your ICICI Bank account, you can typically follow these steps:\n1. Log in to your ICICI Bank internet banking account using your current username and password.\n2. Once logged in, navigate to the \"Settings\" or \"Profile\" section. The exact location of this option may vary depending on the layout of the website.\n3. Look for an option related to \"Change Password\" or \"Reset Password.\"\n4. Click on the appropriate link to initiate the password change process.\n5. You may be asked to verify your identity through OTP (One-Time Password) sent to your registered mobile number or email address.\n6. Follow the on-screen instructions to enter your current password and then set a new password.\n7. Make sure your new password meets the bank's password requirements, such as length, special characters, etc.\n8. Once you've entered and confirmed your new password, save the changes.\nIf you're unable to locate the option to change your password or encounter any difficulties during the process, you can contact ICICI Bank's customer care helpline : 1800-1080 for assistance. They'll guide you through the steps to change your password securely."]
+    },
+    {
+      "tag": "pin",
+      "patterns": [
+        "how to reset a pin",
+	"reset pin"
+      ],
+      "responses": [
+        "To reset your PIN for your ICICI Bank debit card or credit card, you can typically follow these steps:\n\n1. Via ATM: Visit any ICICI Bank ATM and insert your debit/credit card. Select the option for \"Generate/Reset PIN\" and follow the on-screen instructions. You may need to enter your account details and verify your identity through OTP (One-Time Password) sent to your registered mobile number.\n\n2. Through Internet Banking: Log in to your ICICI Bank internet banking account. Navigate to the section for managing your cards or settings. Look for an option to \"Reset PIN\" or \"Generate PIN\" for your card. Follow the instructions provided, which may involve OTP verification or answering security questions.\n\n3. Using Mobile App: If you have the ICICI Bank mobile banking app installed on your smartphone, open the app and navigate to the section for managing your cards. Look for an option to reset or generate PIN for your card. Follow the prompts to complete the process, which may include OTP verification.\n\n4. Contact Customer Care: If you're unable to reset your PIN using the above methods or encounter any difficulties, you can contact ICICI Bank's customer care helpline: 1800-1080. They will assist you in resetting your PIN securely.\n\nRemember to keep your new PIN secure and do not share it with anyone. Additionally, ensure that you follow all the security measures provided by the bank during the PIN reset process to safeguard your account."
+      ]
+    },
+    {
+      "tag": "debit card unblock",
+      "patterns": [
+        "how to unblock a debit card",
+        "steps to unblock a debit card"
+      ],
+      "responses": [
+        "To unblock your ICICI Bank debit card, you can typically follow these steps:\n\n1. Online Banking: Log in to your ICICI Bank internet banking account using your username and password.\n- Navigate to the \"Service Requests\" or \"Debit Card Services\" section.\n- Look for an option to \"Block/Unblock Card\" or \"Manage Debit Card.\"\n- Select the option to unblock your card and follow the on-screen instructions.\n\n2. Mobile Banking App: If you have the ICICI Bank mobile banking app installed on your smartphone:\n- Open the app and log in to your account.\n- Go to the section for managing your cards or services.\n- Look for an option to unblock your debit card and follow the prompts.\n\n3. Customer Care: You can also contact ICICI Bank's customer care helpline : 1800-1080 and request them to unblock your debit card. You may need to provide your account details and answer security questions for verification purposes.\n\n4. Visit Branch: If you prefer, you can visit the nearest ICICI Bank branch and speak to a bank representative in person. They will assist you in unblocking your debit card.\n\nRegardless of the method you choose, ensure that you have the necessary identification and account information ready for verification purposes. Additionally, if your card was blocked due to security reasons (such as suspected unauthorized transactions), the bank may require additional steps to ensure the security of your account before unblocking the card."
+      ]
+    },
+    {
+      "tag": "debit card block",
+      "patterns": [
+        "How to block debit card",
+        "steps to block debit card"
+      ],
+      "responses": [
+        "To block your ICICI Bank debit card, you can typically follow these steps:\n\n1. Online Banking: Log in to your ICICI Bank internet banking account using your username and password.\n- Navigate to the \"Service Requests\" or \"Debit Card Services\" section.\n- Look for an option to \"Block/Unblock Card\" or \"Manage Debit Card.\"\n- Select the option to block your card and follow the on-screen instructions.\n\n2. Mobile Banking App: If you have the ICICI Bank mobile banking app installed on your smartphone:\n- Open the app and log in to your account.\n- Go to the section for managing your cards or services.\n- Look for an option to block your debit card and follow the prompts.\n\n3. Customer Care: You can also contact ICICI Bank's customer care helpline and request them to block your debit card. You may need to provide your account details and answer security questions for verification purposes.\n\n5. Visit Branch: If you prefer, you can visit the nearest ICICI Bank branch and speak to a bank representative in person. They will assist you in blocking your debit card.\n\nIt's essential to block your card as soon as you realize it's lost or stolen to prevent unauthorized transactions. Once your card is blocked, you can request a replacement card if needed."
+      ]
+    },
+    {
+      "tag": "activate debit card",
+      "patterns": [
+        " how to activate a debit card",
+        "steps to activate debit card",
+        "activate debit card"
+      ],
+      "responses": [
+        "To activate your ICICI Bank debit card, you typically have several options:\n\n1. ATM Activation: Visit any ICICI Bank ATM and insert your debit card. Follow the on-screen instructions to generate your PIN. Once you've set your PIN, your card will be activated and ready for use.\n\n2. Online Banking: Log in to your ICICI Bank internet banking account using your username and password. Navigate to the \"Service Requests\" or \"Debit Card Services\" section. Look for an option to \"Activate Debit Card\" or \"Manage Debit Card.\" Follow the instructions provided to activate your card online.\n\n3. Mobile Banking App: If you have the ICICI Bank mobile banking app installed on your smartphone:\n- Open the app and log in to your account.\n- Go to the section for managing your cards or services.\n- Look for an option to activate your debit card and follow the prompts.\n\n4. Customer Care: You can also contact ICICI Bank's customer care helpline : 1800-1080 and request assistance in activating your debit card. They may guide you through the activation process over the phone.\n\n5. Visit Branch: If you prefer, you can visit the nearest ICICI Bank branch and speak to a bank representative. They will assist you in activating your debit card in person.\n\nOnce your debit card is activated, you can start using it for transactions both online and offline, as well as for ATM withdrawals. It's essential to activate your card promptly to ensure uninterrupted access to your funds."
+      ]
+    },
+{"tag":"contact",
+"patterns":["customer care number","how to contact you","contact details"],
+"responses":["Contact us at:-https://www.icicibank.com/contact-us?ITM=nli_cms_customer_services_contact_us_header_nav"]},
+{"tag":"none of the above",
+"patterns":[],
+"responses":["For further questions check out the page:-\nhttps://www.icicibank.com/personal-banking/customer-service/help-section?ITM=nli_cms_customer_services_faqs_header_nav",
+"For further queries you could contact on our customer care number: 1800-1080"]
+     }
+  ]
+}
