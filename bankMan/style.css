@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.box{
+    border: 2px solid orange;
+    height: 550px;
+    width: 400px;
+    border-radius: 4px;
+    background-color: aquamarine;
+}
+
+#top{
+    height: 45px;
+    width: 397px;
+    background-color: rgb(99, 96, 96);
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 15px;
+    border: 2px solid;
+    font-weight: bold;
+}
+
+#bottom{
+    display: flex;
+    justify-content: center;
+}
+#msg{
+    height: 40px;
+    width: 330px;
+    margin-top: 280px;
+    margin-left: 10px;
+    font-size: 18px;
+    border-radius: 4px;
+    padding-left: 10px;
+    border: 2px solid black;
+}
+#icon{
+    height: 40px;
+    width: 50px;
+    border: 2px solid black;
+    margin-top: 280px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+}
+
+#btn{
+    width: 38px;
+    cursor: pointer;
+}
+i{
+    margin-top: 5px;
+    cursor: pointer;
+}
+.user{
+    height: 100px;
+    width: 250px;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+#user_msg{
+    height: 50px;
+    width: 240px;
+    border: none;
+    background-color: aquamarine;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: context-menu;
+    padding-left: 5px;
+}
