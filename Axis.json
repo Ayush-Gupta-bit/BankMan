@@ -1,0 +1,99 @@
+{
+  "intents": [
+{
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "help",
+        "Is anyone there?",
+        "Hello",
+        "need help"
+      ],
+      "responses": [
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "apply",
+      "patterns": [
+        "how to apply for credit card",
+        "apply for card",
+        "apply for fd",
+        "apply for debit card",
+        "apply for saving accounts",
+        "apply for mutual funds",
+	"apply for fixed deposit",
+	"apply for scheme",
+	"apply for "
+      ],
+      "responses": [
+        "Please reach the following page to apply for it:- \nhttps://www.axisbank.com/applynow"
+      ]
+    },
+    {
+      "tag": "complaint",
+      "patterns":["how to register a comaplaint",
+ 	"register a complaint",
+	"complaint"],
+      "responses": [
+        "Axis Bank has three escalation levels where you can report your grievance. If you are raising a complaint for the first time, you can approach us through the Level 1: Front-end channels.\n\nLevel 1: Front-end channels\nIf you have any complaint or grievance for the breach of the committed turnaround time or nonfulfillment of the request by us, you can raise a complaint through our online modes such as Phone Banking, email/ chat or physical mode through walk-in at our Loan Centres and Branches. We will acknowledge your concern and respond appropriately within 10 days.\nGetting in touch:\nCall Centre numbers: 1860-419-5555, 1860-500-5555, 1800-103-5577(Toll free number)\nAxis Support: www.axisbank.com/support/\nBranches / Loan Centres: Please visit www.axisbank.com to locate the nearest branch / loan centre\nWhat if I you are unsatisfied with the Bank's response at Level 1? If you are dissatisfied with our response to your grievance, you may refer the matter to Level 2.\n\nLevel 2: Circle Nodal Officer/Nodal Officer at HO\n\nYou can write, email or call to share your grievance with the Nodal Officer for escalation. The Nodal Officer will acknowledge and record your concern in the system. You can expect a response from us with a turnaround time of 10 days.Whom should you contact if you are not satisfied with the Bank's response at Level 2?\n\nIf you are still unsatisfied with our response, you can escalate the matter to the Principal Nodal Officer.\n\nLevel 3: Principal Nodal Officer\n\nYou can write, email or share your complaint through a call to the Principal Nodal Officer. You can expect a response tentatively within 10 days."
+      ]
+    },
+    {
+      "tag": "password",
+      "patterns": ["How do I change my password","change password"],
+      "responses": ["You can change your password before or after logging into Internet Banking.\nTo reset your password before loginfollow these steps:\n1. Go to the Login page at https://omni.axisbank.co.in/axisretailbanking/ and click on the “Reset here link\n2. Enter either your customer ID or registered mobile number. \n3. If you have a current account or a savings account, authenticate using one of the available options:\na. OTP: Enter date of birth, PAN for residents/ Passport for non-residents, and two separate OTPs sent on your registered mobile number and registered email address\nb. Debit Card: Enter debit card details\nc. Email Link: Enter your registered email address. An email will be sent on it with a link. Click on it to set your new password\nd. KYC: Enter your KYC details\n4. If you are a standalone credit card customer, authenticate using one of the available options:\na. OTP: Enter date of birth, PAN for residents/ Passport for non-residents, and two separate OTPs sent on your registered mobile\nnumber and registered email address\nb. Credit Card: Enter your credit card details\n5. If you are a standalone loan customer, authenticate using one of the available options:\na. OTP: Enter date of birth, PAN for residents/ Passport for non-residents, and two separate OTPs sent on your registered mobile \nnumber and registered email address\nb. Loan: Enter your loan account details\n6. After the authentication is complete, set a strong password. You may have to enter an OTP to confirm.\n7. You have now reset your Internet Banking password.\n\n\nTo reset your password after login, follow these steps:\n1. Go to My Profile\n2. Click “Change your password”\n3. Enter old password\n4. Enter new password\n5. You have now reset your Internet Banking password."]
+    },
+    {
+      "tag": "pin",
+      "patterns": [
+        "how to reset a pin",
+	"reset pin"
+      ],
+      "responses": [
+        "Reset ATM PIN using the ATM itself\nIf you are at the ATM and realise “I forgot my ATM Card PIN number” after putting your card inside the machine, do not worry.\nChoose Forgot PIN or Regenerate ATM PIN option on the menu. You would be redirected to a screen to enter your registered mobile number, which triggers an OTP to that number. Enter the OTP on the screen, and you would be redirected to choose another PIN. The reset through this mechanism happens immediately, and you can withdraw cash once it resets.\nReset ATM PIN Online using NetBankingIt is not just in the ATMs, you could forget your Debit Card PIN while paying at a store or in restaurants. While it can be embarrassing, there are quick remedies to fix such sticky situations as well. Almost all banks offer quick reset of ATM pins through NetBanking.\nSo if you have registered for NetBanking facilities, all you need to do is log in through your phone and go the cards section and request Instant PIN Generation. They usually ask you for card details, CVV number, expiry date, and an OTP is generated to your registered mobile number to authenticate the user, and you could enter a PIN of your choice and confirm. You could then directly use the newly generated PIN at the point of sales machine.\nReset ATM PIN Online using MobileAppsEvery mobile bank application is also equipped to accommodate these requests and if you have a smartphone with internet connectivity, by merely entering your card details in the app along with your CVV number and an OTP you could reset the card PIN immediately. However, some banks also allow you to directly view the PIN you forgot your Credit Card PIN or your Debit Card PIN, right after logging in with your credentials.\nReset ATM PIN at the Branch\nIn some situations, when you are travelling, and you realise both the above methods tedious: as ATMs might be far and few and internet connections weak. When you realise “I forgot my PIN number to my Debit Card” in such situations, all you need to do is call up the bank customer care line and request for a PIN reset. The bank dispatches the PIN to your registered mailing address; however, if you are travelling, you could place a request to send the new PIN to the nearest branch from where you can collect it in person.\nAlso, if there is a branch in the nearby vicinity, you could fill the form directly at the branch and request for a reset which would then again be sent across to your mailing address or you could collect it in the same office."
+      ]
+    },
+    {
+      "tag": "debit card unblock",
+      "patterns": [
+        "how to unblock a debit card",
+        "steps to unblock a debit card"
+      ],
+      "responses": [
+        "1. Contact Axis Bank/Customer/Service: 8777-815-800 Call Axis Bank's customer service helpline or visit their website to find the appropriate contact information. Explain your situation and inform them that your debit card is blocked due to multiple incorrect PIN attempts.\n2. Verify Your Identity: The bank will likely ask you to verify your identity to ensure that you are the authorized cardholder. They may ask for details such as your name, account number, date of birth, and other personal information.\n3. Request Card Unblock: Once your identity is verified, request the customer service representative to unblock your debit card. They will guide you through the process and provide necessary instructions.\n4. Follow Additional Instructions: The bank may require you to visit a branch in person or submit a written request to unblock your debit card. Alternatively, they may guide you through the unblocking process online or via their mobile banking app, if available.\n5. Set a New PIN: After your debit card is unblocked, you may be required to set a new PIN. Follow the bank's instructions to select a secure PIN that you can remember easily but is not easily guessable by others."
+      ]
+    },
+    {
+      "tag": "debit card block",
+      "patterns": [
+        "How to block debit card",
+        "steps to block debit card"
+      ],
+      "responses": [
+        "In scenarios where your Debit Card is lost/stolen or you suspect misuse of your Debit card, you can immediately block your card by following any of these steps\n1. SMS 'BLOCKCARD' and send it to 5676782 or +919717000002.\n2. Call on our Emergency Helplline Number +91-22-67987700.\n3. Login to your Internet Banking account and select 'Block Crad' option in The DEbits card section.\n4. Login to Axis Mobile App.Visit Banking>Services>Debit Cards>Block & Replace"
+      ]
+    },
+    {
+      "tag": "activate debit card",
+      "patterns": [
+        " how to activate a debit card",
+        "steps to activate debit card",
+        "activate debit card"
+      ],
+      "responses": [
+        "Reach out the page - https://www.axisbank.com/retail/cards/debit-cards/useful-links/debit-card-authentication"]
+      }
+    ,
+{"tag":"contact",
+"patterns":["customer care number","how to contact you","contact details"],
+"responses":["Contact us at:-https://www.axisbank.com/contact-us"]},
+{"tag":"none of the above",
+"patterns":[],
+"responses":["For further questions check out the page:-\nhttps://www.axisbank.com",
+"For further queries you could contact on our customer care number:-1860-419-5555 & 1860-500-5555\nToll free line: 1800-103-5577"]
+     }
+  ]
+}
