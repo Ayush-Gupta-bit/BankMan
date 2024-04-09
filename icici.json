@@ -1,5 +1,5 @@
 {
-  "intents": [
+  "icici": [
 {
       "tag": "greeting",
       "patterns": [
