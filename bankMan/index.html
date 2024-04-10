@@ -8,6 +8,16 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="navbar">
+        <div id="options">
+            <label for="banks" id="select">Select Your Bank</label>
+            <select id="banks">
+                <option value="ICICI">ICICI</option>
+                <option value="AXIS">AXIS</option>
+                <option value="HDFC">HDFC</option>
+            </select>
+        </div>
+    </div>
     <div class="container">
         <div class="box">
             <div id="top">
@@ -18,14 +28,13 @@
             </div>
             <div id="bottom">
                 <div>
-                    <textarea placeholder="Enter text" id="msg"></textarea>
+                    <textarea type="text" placeholder="Write a message" id="msg"></textarea>
                 </div>
                 <div id="icon">
                     <button id="btn">
                         <i class="fa-solid fa-paper-plane"></i>
                     </button>    
-                </div>
-                
+                </div>    
             </div>
         </div>
     </div>
