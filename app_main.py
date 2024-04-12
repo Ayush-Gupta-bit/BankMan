@@ -6,7 +6,7 @@ from model import NeuralNet
 from nltk_utils import tokenize, bag_of_words
 
 # Streamlit app
-
+st.set_page_config(page_title="BankMan", page_icon=":🤖:")
 st.title("BankMan: The Banking Chatbot")
 
 
