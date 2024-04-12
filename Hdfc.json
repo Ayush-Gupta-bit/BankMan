@@ -26,7 +26,14 @@
         "apply for mutual funds",
 	"apply for fixed deposit",
 	"apply for scheme",
-	"apply for "
+	"apply for ",
+  "debit card apply",
+  "credit card apply", 
+  "fixed deposit", 
+  "savings account",
+  "saving account",
+  "mutual fund",
+  "mutual funds"
       ],
       "responses": [
         "Please reach the following page to apply for it:-\napplyonline.hdfcbank.com"
@@ -35,19 +42,23 @@
     {
       "tag": "complaint",
       "patterns":["how to register a comaplaint",	"register a complaint",
-	"complaint"],
+	"complaint",
+  "complaints",
+  "submit complaint",
+  "give complaint",
+  "post complaint"],
       "responses": ["you can register a complaint at :\nhttps://leads.hdfcbank.com/applications/webforms/apply/complaint_form_new.as p"]
     },
     {
       "tag": "password",
-      "patterns": ["How do I change my password","change password"],
+      "patterns": ["How do I change my password","change password", "how to change password", "password change", "changing password", "change my bank account password", "change bank password"],
       "responses": ["After you have logged in, you can change your password using the \"Change password\" option in the top part of the screen. You have to type your current password and the new password you have chosen in their respective boxes."]
     },
     {
       "tag": "pin",
       "patterns": [
         "how to reset a pin",
-	"reset pin"
+	"reset pin", "pin reset", "change pin", "resetting pin", "change pin", "pin change", "changing pin"
       ],
       "responses": [
         "Reset ATM PIN using the ATM itself\nIf you are at the ATM and realise “I forgot my ATM Card PIN number” after putting your card inside the machine, do not worry.\nChoose Forgot PIN or Regenerate ATM PIN option on the menu. You would be redirected to a screen to enter your registered mobile number, which triggers an OTP to that number. Enter the OTP on the screen, and you would be redirected to choose another PIN. The reset through this mechanism happens immediately, and you can withdraw cash once it resets.\nReset ATM PIN Online using NetBankingIt is not just in the ATMs, you could forget your Debit Card PIN while paying at a store or in restaurants. While it can be embarrassing, there are quick remedies to fix such sticky situations as well. Almost all banks offer quick reset of ATM pins through NetBanking.\nSo if you have registered for NetBanking facilities, all you need to do is log in through your phone and go the cards section and request Instant PIN Generation. They usually ask you for card details, CVV number, expiry date, and an OTP is generated to your registered mobile number to authenticate the user, and you could enter a PIN of your choice and confirm. You could then directly use the newly generated PIN at the point of sales machine.\nReset ATM PIN Online using MobileAppsEvery mobile bank application is also equipped to accommodate these requests and if you have a smartphone with internet connectivity, by merely entering your card details in the app along with your CVV number and an OTP you could reset the card PIN immediately. However, some banks also allow you to directly view the PIN you forgot your Credit Card PIN or your Debit Card PIN, right after logging in with your credentials.\nReset ATM PIN at the Branch In some situations, when you are travelling, and you realise both the above methods tedious: as ATMs might be far and few and internet connections weak. When you realise “I forgot my PIN number to my Debit Card” in such situations, all you need to do is call up the bank customer care line and request for a PIN reset. The bank dispatches the PIN to your registered mailing address; however, if you are travelling, you could place a request to send the new PIN to the nearest branch from where you can collect it in person.\nAlso, if there is a branch in the nearby vicinity, you could fill the form directly at the branch and request for a reset which would then again be sent across to your mailing address or you could collect it in the same office."
@@ -57,7 +68,7 @@
       "tag": "debit card unblock",
       "patterns": [
         "how to unblock a debit card",
-        "steps to unblock a debit card"
+        "steps to unblock a debit card", "unblock debit", "unblock debit card"
       ],
       "responses": [
         "To unblock your HDFC debit card, contact HDFC Bank Card Customer Service at 1800 202 6161/ 1860 267 6161."
@@ -67,7 +78,7 @@
       "tag": "debit card block",
       "patterns": [
         "How to block debit card",
-        "steps to block debit card"
+        "steps to block debit card", "block debit", "block debit card", "debit block", "debit card block"
       ],
       "responses": [
         "Call the HDFC customer support at 1860 267 6161, 1800 202 6161 or +9122 61606160 (in case you are travelling outside India) to block your HDFC debit card."
@@ -78,19 +89,85 @@
       "patterns": [
         " how to activate a debit card",
         "steps to activate debit card",
-        "activate debit card"
+        "activate debit card", "activate debit card", "activate debti", "debit activate", "debit card activate", "debit card activation"
       ],
       "responses": [
         "The procedure is simple:\nOnce you get your welcome kit from the bank, along with the Debit Card, there is an ATM pin given in a sealed envelope.When you go to the ATM, enter your Debit Card and enter the ATM pin provided in the welcome kit. On entering this PIN, you will be prompted to change your ATM PIN.Change your ATM PIN and use the card henceforth for regular transactions.There is a way to activate a Debit Card online via NetBanking. For that,\nYou need to login to the respective bank's internet banking portal. Once you log in, go to the section marked as 'Debit Card'.There will be instructions on how to generate an ATM PIN for your Debit Card.Generate an ATM PIN by following those instructions and your Debit Card will be activated online.Some banks even have a procedure to activate the Debit Card via Phone Banking.\nThere is usually a phone banking PIN or some identifier in the bank's welcome kit. This can be used to identify yourself in phone banking conversations.Dial the bank's phone banking number and use the PIN number or security questions to verify yourself.Once verified, follow the instructions to activate your Debit Card.Some banks have an additional layer of security, where an OTP is sent to the registered mobile number while setting the ATM PIN in an ATM or via Phone Banking. This helps to ensure the verification and activation is authorised.\nHDFC Bank has a seamless procedure to activate a Debit Card. By using NetBanking or Phone Banking, your new Debit Card can be activated in a matter of a few hours.}"
       ]
     },
 {"tag":"contact",
-"patterns":["customer care number","how to contact you","contact details"],
+"patterns":["customer care number","how to contact you","contact details", "bank contact details", "contact bank", "contact number", "your contact number"],
 "responses":["Contact us at:-https://www.hdfcbank.com/personal/need-help/contact-us"]},
 {"tag":"none of the above",
 "patterns":[],
 "responses":["For further questions check out the page:-\nhttps://www.hdfcbank.com/personal/need-help/faqs",
 "For further queries you could contact on our customer care number:-\nCustomers travelling abroad can reach us on +9122 61606160\n\nCustomers of Imperia Account, Diners Black Credit Card and Infinia Credit Card can reach us on our dedicated Customer Care Number +9122 61717606"]
-     }
+     },
+     {
+       "tag": "avail",
+      "patterns": [
+        "how to avail credit card",
+        "avail card",
+        "avail fd",
+        "avail debit card",
+        "avail saving accounts",
+        "avail mutual funds",
+	"avail fixed deposit",
+	"avail scheme",
+	"avail ",
+  "debit card avail",
+  "credit card avail", 
+  "fixed deposit", 
+  "savings account",
+  "saving account",
+  "mutual fund",
+  "mutual funds",
+  "avail loan",
+  "avail loan sevices",
+  "loan services avail"
+       ],
+       "responses": [
+         "Please reach the following page to apply for it:-\napplyonline.hdfcbank.com"
+       ]
+     },
+     {
+       "tag": "abuse",
+       "patterns": [
+         "rob your bank",
+         "fuck off",
+         "fuck",
+         "bastard",
+         "kill your bank",
+         "destroy you",
+         "destroy your bank"
+       ],
+       "responses": [
+         "Sorry, but this is inappropriate from your side and I would suggest you to mind your language. "      ]
+     },
+     {
+       "tag": "open",
+       "patterns": [
+         "open a bank account",
+         "open bank account",
+         "open fd account",
+         "open an fd account",
+         "open nps account",
+         "open an nps account",
+         "open savings account",
+         "open a savings account",
+         "open account",
+         "open an account",
+         "open a account",
+         "open locker account",
+         "locker services",
+         "how to open a mutual fund account"
+       ],
+       "responses": [
+        "To open any form of account in our bank you can visit the official webiste of our bank, use HDFC app or visit the nearest branch for an offline experience."
+       ]
+     },
+     {"tag":"reach",
+     "patterns":["customer care number","how to reach you","contact details", "bank contact details", "reach bank", "contact number", "your contact number", "reach out to bank"],
+     "responses":["Contact us at:-https://www.hdfcbank.com/personal/need-help/contact-us", "You can reach out to us directly through our website or for an offline experience you can visit your nearest branch."]}
   ]
 }
