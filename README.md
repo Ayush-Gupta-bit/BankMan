@@ -1,4 +1,4 @@
-                                                                #BANKMAN: THE BANKING CHATBOT#
+                                                                **BANKMAN: THE BANKING CHATBOT**
 
 It is a one-stop chatbot for all your bank related queries.<br /> 
 From opening an account to applying for various cards and filing a complaint, it replies to all types of common questions which a customer can have.<br /> 
