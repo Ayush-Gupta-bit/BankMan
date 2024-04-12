@@ -9,6 +9,6 @@ Nishan Patgiri (frontend designer), <br />
 Piyush Rai (dataset and model trainer) and <br /> 
 Aditya Pratap (debugger and contributer in all tasks).<br /> 
 
-Here are some Glimpses of our project.\n
+Here are some Glimpses of our project:
 ![Screenshot 2024-04-12 234258](https://github.com/Ayush-Gupta-bit/BankMan/assets/140447182/731f2168-7d75-455f-8dd0-ba17d5212671)
 ![WhatsApp Image 2024-04-12 at 11 43 51 PM](https://github.com/Ayush-Gupta-bit/BankMan/assets/140447182/60e9b1bd-f1f6-426f-9502-50daa5818406)
